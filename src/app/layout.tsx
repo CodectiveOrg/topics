@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 
+import "@/styles/button.css";
+import "@/styles/typography.css";
+
 import "./globals.css";
 
 export const metadata: Metadata = {

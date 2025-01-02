@@ -1,0 +1,90 @@
+:root {
+  --color-gray-98: hsl(120deg 4% 98%);
+  --color-gray-90: hsl(120deg 4% 90%);
+  --color-gray-80: hsl(120deg 4% 80%);
+  --color-gray-70: hsl(120deg 4% 70%);
+  --color-gray-40: hsl(120deg 4% 40%);
+  --color-gray-30: hsl(120deg 4% 30%);
+  --color-gray-20: hsl(120deg 4% 20%);
+  --color-gray-16: hsl(120deg 4% 16%);
+  --color-gray-14: hsl(120deg 4% 14%);
+  --color-gray-12: hsl(120deg 4% 12%);
+  --color-gray-10: hsl(120deg 4% 10%);
+
+  --transparent-light: hsl(120deg 4% 98% / 0%);
+  --transparent-dark: hsl(120deg 4% 10% / 0%);
+
+  --glass-light: hsl(120deg 4% 98% / 6%);
+  --glass-dark: hsl(120deg 4% 10% / 10%);
+
+  --color-primary: hsl(120deg 70% 40%);
+  --color-primary-fade: hsl(120deg 70% 96%);
+  --color-primary-lighter: hsl(120deg 70% 50%);
+  --color-primary-darker: hsl(120deg 70% 34%);
+  --color-primary-opposite: var(--color-gray-10);
+
+  --gradient-primary: linear-gradient(
+    -135deg,
+    hsl(120deg 70% 60%),
+    hsl(120deg 70% 50%),
+    hsl(120deg 70% 40%)
+  );
+
+  --color-default-background: var(--color-gray-98);
+  --color-default-foreground: var(--color-gray-10);
+
+  --color-box-shadow-subtle: hsl(0deg 0% 10% / 12%);
+  --box-shadow-subtle: 0 0.2rem 0.5rem 0 var(--color-box-shadow-subtle);
+
+  --border-radius: 0.25rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: system-ui;
+  font-size: 150%;
+}
+
+input,
+label,
+select,
+textarea,
+button,
+fieldset,
+legend,
+datalist,
+output,
+option,
+optgroup {
+  font: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--color-default-background);
+  color: var(--color-default-foreground);
+
+  inline-size: min(45rem, 100% - 2rem);
+
+  margin-inline: auto;
+  padding-block: 1rem;
+
+  font-size: var(--fz-400);
+}
