@@ -1,0 +1,18 @@
+.groups {
+  display: grid;
+  gap: 4rem;
+
+  .group {
+    h2 {
+      margin-block-end: 1rem;
+
+      border-block-end: 1px solid currentcolor;
+    }
+
+    .topics {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+      gap: 0.5rem;
+    }
+  }
+}

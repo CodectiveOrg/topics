@@ -1,5 +1,0 @@
-.topics {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 0.5rem;
-}
