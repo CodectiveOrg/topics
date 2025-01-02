@@ -1,5 +1,6 @@
 :root {
   --color-gray-98: hsl(120deg 4% 98%);
+  --color-gray-95: hsl(120deg 4% 95%);
   --color-gray-90: hsl(120deg 4% 90%);
   --color-gray-80: hsl(120deg 4% 80%);
   --color-gray-70: hsl(120deg 4% 70%);
@@ -30,13 +31,13 @@
     hsl(120deg 70% 40%)
   );
 
-  --color-default-background: var(--color-gray-98);
+  --color-default-background: var(--color-gray-95);
   --color-default-foreground: var(--color-gray-10);
 
   --color-box-shadow-subtle: hsl(0deg 0% 10% / 12%);
-  --box-shadow-subtle: 0 0.2rem 0.5rem 0 var(--color-box-shadow-subtle);
+  --box-shadow-subtle: 0 0.1rem 0.25rem 0 var(--color-box-shadow-subtle);
 
-  --border-radius: 0.25rem;
+  --border-radius: 0.875rem;
 }
 
 *,
@@ -50,7 +51,6 @@
 
 html {
   font-family: system-ui;
-  font-size: 150%;
 }
 
 input,
@@ -81,7 +81,7 @@ body {
   background-color: var(--color-default-background);
   color: var(--color-default-foreground);
 
-  inline-size: min(45rem, 100% - 2rem);
+  inline-size: min(75rem, 100% - 2rem);
 
   margin-inline: auto;
   padding-block: 1rem;
