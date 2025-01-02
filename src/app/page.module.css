@@ -1,2 +1,5 @@
 .page {
+  h1 {
+    margin-block-end: 1rem;
+  }
 }

@@ -1,0 +1,10 @@
+.topic {
+  background-color: var(--color-gray-98);
+  box-shadow: var(--box-shadow-subtle);
+
+  min-block-size: 100%;
+
+  padding: 0.5rem;
+
+  border-radius: var(--border-radius);
+}
