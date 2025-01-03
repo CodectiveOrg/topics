@@ -11,4 +11,5 @@ export enum CategoryEnum {
   MAKE_IT_BOUNCE,
   TIPS_AND_TRICKS,
   CONCEALED,
+  DEVOPS,
 }

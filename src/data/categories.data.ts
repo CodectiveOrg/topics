@@ -75,4 +75,10 @@ export const categories = new Map<CategoryEnum, CategoryType>([
       title: "Concealed",
     },
   ],
+  [
+    CategoryEnum.DEVOPS,
+    {
+      title: "DevOps",
+    },
+  ],
 ]);

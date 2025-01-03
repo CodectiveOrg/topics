@@ -70,6 +70,14 @@ export const topics: TopicType[] = [
     category: CategoryEnum.TIPS_AND_TRICKS,
   },
   {
+    title: "Using Browser Override When Backend Code Is Not Ready Yet",
+    category: CategoryEnum.TIPS_AND_TRICKS,
+  },
+  {
+    title: ":has Selector (Parent Selector)",
+    category: CategoryEnum.TIPS_AND_TRICKS,
+  },
+  {
     title: "Promises and Async/Await",
     category: CategoryEnum.A_GOOD_BEGINNING,
   },
@@ -88,5 +96,13 @@ export const topics: TopicType[] = [
   {
     title: "YAGNI",
     category: CategoryEnum.CLEAN_CODE,
+  },
+  {
+    title: "Subgrid",
+    category: CategoryEnum.WHATS_UP,
+  },
+  {
+    title: "GitHub Pages",
+    category: CategoryEnum.DEVOPS,
   },
 ];
